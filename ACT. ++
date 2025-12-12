@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    
+    int S;
+    int T;
+    int D;
+    
+    cout<<"distance calculator\n";
+    cout<<"whats is your speed:\n";
+    cin>>S;
+    cout<<"whats is your time:\n";
+    cin>>T;
+D= T*S;
+cout<<"your distance is:"<<D;
+ return 0;
+}
